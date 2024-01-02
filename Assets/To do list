@@ -1,0 +1,15 @@
+- filter options on the jobs page - like by salary - add others
+
+
+Done
+
+- Remove distance from you in miles section
+- Add ccontract type to jobs cards
+- No jobs found - add message on jobs page
+- Add a cancel/reset button next to the search button
+- Job details apge
+  - create it
+  - add mapp below description
+- on jobs page - left hand search section needs changing so it doesnt extend all the way down the page
+- when you click on a job for the details, need to store the search details so that when you go back to the 'jobs'
+  page you see the same info

@@ -1,0 +1,126 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f6f3f2;
+
+}
+
+.nav-link:hover {
+    background-color: #e85a32;
+    color: white;
+    transition: background-color 0.7s ease; 
+
+}
+
+.nav-link.active {
+    background-color: #e85a32;
+    color: white;
+    transition: background-color 0.7s ease; 
+  
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 20px; /* Adjust the font size as needed */
+  }
+
+  .btnRed {
+    background-color: #e85a32;
+    color: white;
+    transition: background-color 0.7s ease; 
+    
+  }
+
+  .btnBlack {
+    background-color: black;
+    color: white;
+    transition: background-color 0.7s ease; 
+    
+  }
+
+  .btnRed:hover {
+    background-color: #753120;
+    color: white;
+  
+  }
+
+  .btnBlack:hover {
+    background-color: #753120;
+    color: white;
+    
+  }
+
+  .bgColour {
+    background-color: #e85a32;
+
+}
+
+  .bgColour1 {
+    background-color: #f6f3f2;
+    border-bottom: 2px solid #e85a32;/* Adjust the color as needed */
+  }
+
+  .image-container {
+    position: relative;
+  }
+
+  .image-wrapper {
+    overflow: hidden;
+  }
+
+  .image-wrapper img {
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .image-wrapper:hover img {
+    transform: scale(1.1);
+  }
+
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:2em;
+    color: aliceblue;
+  }
+
+  .text-white {
+    color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-black:hover {
+  cursor: pointer;
+}
+
+.text-white:hover {
+  cursor: pointer;
+}
+
+.areaLink:hover {
+
+  color: #e85a32;
+  transition: background-color 0.7s ease; 
+  cursor: pointer;
+}
+
+.borderRed{
+  border: 2px solid #e85a32;/* Adjust the color as needed */
+}
+
+.borderRed2{
+  border: 2px solid #753120;;/* Adjust the color as needed */
+}
+
+ #map {
+  height: 400px
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

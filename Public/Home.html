@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bgColour1 py-3 pe-5">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" onclick="jobsPage()">Jobs</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn btnRed" type="submit">Login</button>
+        </form>
+      </div>
+    </nav>
+    
+
+    <div class="container-fluid bgColour py-4">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-center">Find your next job</h2>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col">
+          <div class=""></div>
+        </div>
+
+        <div class="col-md-auto">
+          <div>Keywords</div>
+          <input class="text-center border border-dark rounded me-4" placeholder="Enter your keywords" style="width: 350px; height: 50px"
+            id="keywordsInput" required></input>
+            <div id="autocomplete-results"></div>
+        </div>
+
+        <div class="col-md-auto">
+          <div>Location</div>
+          <input class="text-center border border-dark rounded" placeholder="Town, City or Postcode" style="width: 350px; height: 50px"
+            id="locationInput" required></input>
+        </div>
+
+        <div class="col">
+          <button class=" btnBlack m-4 rounded" style="width: 100px; height: 50px;" onclick="searchForResultsHomePage()">Search</button>
+        </div>
+
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-auto">
+          <a class="nav-link homePageLink" id="full_time" href="#" onclick="goToJobs(this.id)">Full-time jobs</a>
+        </div>
+        <div class="col-md-auto">
+          <a class="nav-link homePageLink" id="part_time" href="#" onclick="goToJobs(this.id)">Part-time jobs</a>
+        </div>
+        <div class="col-md-auto">
+          <a class="nav-link homePageLink" id="IT Jobs" href="#" onclick="goToJobs(this.id)">IT jobs</a>
+        </div>
+        <div class="col-md-auto">
+          <a class="nav-link homePageLink" id="Healthcare & Nursing Jobs" href="#" onclick="goToJobs(this.id)">Health care jobs</a>
+        </div>
+        <div class="col-md-auto">
+          <a class="nav-link homePageLink" id="Engineering Jobs" href="#" onclick="goToJobs(this.id)">Engineering jobs</a>
+        </div>
+        <div class="col-md-auto">
+          <a class="nav-link homePageLink" id="Teaching Jobs" href="#" onclick="goToJobs(this.id)">Teaching jobs</a>
+        </div>
+        <div class="col-md-auto">
+          <a class="nav-link homePageLink" id="Sales Jobs" href="#" onclick="goToJobs(this.id)">Sales jobs</a>
+        </div>
+      </div>
+    </div>
+
+      <div class="container-fluid py-4 bgColour1">
+        <div class="row">
+          <div class="col mb-3">
+            <h2 class="text-center ">Browse jobs by area</h2>
+          </div>
+        </div>
+      
+        <div class="row">
+          <div class="row justify-content-center">
+            <div class="col-md-auto position-relative image-container">
+              <a href="#">
+                <div class="image-wrapper">
+                  <img src="/Assets/Images/famous-tower-bridge-evening-london-england.jpg" width="300" height="150" alt="">
+                </div>
+                <span class="position-absolute top-50 start-50 translate-middle image-text homePageLink" id="London" onclick="goToJobsLocation(this.id)">London</span>
+              </a>
+            </div>
+            <div class="col-md-auto position-relative image-container">
+              <a href="#">
+                <div class="image-wrapper">
+                  <img src="/Assets/Images/pexels-nathan-j-hilton-5212814.jpg" width="300" height="150" alt="">
+                </div>
+                <span class="position-absolute top-50 start-50 translate-middle image-text homePageLink" id="Manchester" onclick="goToJobsLocation(this.id)">Manchester</span>
+              </a>
+            </div>
+            <div class="col-md-auto position-relative image-container">
+              <a href="#">
+                <div class="image-wrapper">
+                  <img src="/Assets/Images/architecture-4622169_1280.jpg" width="300" height="150" alt="">
+                </div>
+                <span class="position-absolute top-50 start-50 translate-middle image-text homePageLink" id="Leeds" onclick="goToJobsLocation(this.id)">Leeds</span>
+              </a>
+            </div>
+            <div class="col-md-auto position-relative image-container">
+              <a href="#">
+                <div class="image-wrapper">
+                  <img src="/Assets/Images/Norwich.jpg" width="300" height="150" alt="">
+                </div>
+                <span class="position-absolute top-50 start-50 translate-middle image-text homePageLink" id="Norwich" onclick="goToJobsLocation(this.id)">Norwich</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid py-4" style="height: 260px;">
+          <div class="row">
+            <div class="row justify-content-center">
+
+              <div class="col-md-auto position-relative mt-2">
+                <div class="col text-center">
+                  <h4 class="" style="width: 350px; height: 50px" id="walesHome">Wales</h4>
+                </div>
+              </div>
+
+              <div class="col-md-auto position-relative mt-2">
+                <div class="col text-center">
+                  <h4 class="text-center" style="width: 350px; height: 50px" id="eastMidlandsHome">EAST MIDLANDS</h4>
+                </div>
+              </div>
+
+              <div class="col-md-auto position-relative mt-2">
+                <div class="col text-center">
+                  <h4 class="text-center" style="width: 350px; height: 50px" id="westMidlandsHome">WEST MIDLANDS</h4>
+                </div>
+              </div>
+
+              <div class="col-md-auto position-relative mt-2">
+                <div class="col text-center">
+                  <h4 class="text-center" style="width: 350px; height: 50px" id="easternEnglandHome">EASTERN ENGLAND</h4>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="container-fluid pt-4 bgColour1" >
+          <div class="row">
+            <div class="col mb-3">
+              <h2 class="text-center ">Browse jobs by sector</h2>
+            </div>
+          </div>
+          
+          <div class="container-fluid "  style="height: 160px;">
+            <div class="row">
+              <div class="row justify-content-center">
+  
+                <div class="col-md-auto position-relative">
+                  <div class="col text-center" style="width: 350px; height: 50px" id="jobsBySectorCol1">
+                    <h6 id="job1">Accountancy</h6>
+                    <h6 id="job2">Admin, Secretarial & PA</h6>
+                    <h6 id="job3">Advertising & PR</h6>
+                  </div>
+                </div>
+
+                <div class="col-md-auto position-relative mt-2">
+                  <div class="col text-center" style="width: 350px; height: 50px">
+                    <h6 id="job4">Construction</h6>
+                    <h6 id="job5">Customer Service & Call Centre</h6>
+                    <h6 id="job6">Domestic</h6>
+                  </div>
+                </div>
+  
+                <div class="col-md-auto position-relative mt-2">
+                  <div class="col text-center" style="width: 350px; height: 50px">
+                    <h6 id="job7">Hospitality & Catering</h6>
+                    <h6 id="job8">HR & Recruitment</h6>
+                    <h6 id="job9">Logistics & Transport </h6>
+
+                  </div>
+                </div>
+
+                <div class="col-md-auto position-relative mt-2">
+                  <div class="col text-center" style="width: 350px; height: 50px">
+                    <h6 id="job10">Retail</h6>
+                    <h6 id="job11">Teaching</h6>
+                    <h6 id="job12">Travel & Tourism</h6>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="bgColour text-light text-center py-3">
+          <div class="container">
+              <p>&copy; 2023 Your Company. All rights reserved.</p>
+          </div>
+      </footer>
+        
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=AIzaSyC1h18VPkfTaL6yucg0lLhGIbgJhzJHdww "></script>
+<script src="Home.js"></script>
+<script type="text/javascript" src="autocomplete.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+      
+  </body>
+
+</html>

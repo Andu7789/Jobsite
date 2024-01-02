@@ -1,0 +1,24 @@
+
+  if(data.count === 0){
+    console.log("No data returned");
+  } else {
+
+ 
+  console.log("area",data.results[0].location.area)
+  console.log("label",data.results[0].category.label)
+  console.log("tag",data.results[0].category.tag)
+  console.log("contract_time",data.results[0].contract_time)
+  console.log("contract_type",data.results[0].contract_type)
+  console.log("description",data.results[0].description)
+  console.log("salary_max",data.results[0].salary_max)
+
+  console.log("area",data.results[1].location.area)
+  console.log("label",data.results[1].category.label)
+  console.log("tag",data.results[1].category.tag)
+  console.log("contract_time",data.results[1].contract_time)
+  console.log("contract_type",data.results[1].contract_type)
+  console.log("description",data.results[1].description)
+  console.log("salary_max",data.results[1].salary_max)
+
+  console.log(data);
+  }
