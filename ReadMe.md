@@ -64,7 +64,7 @@ This site was created to contiune my self learning and to teach myself how to us
 
 The scope of the project was to create a website where I could use Google Maps effectively.  I decided on a Jobs search website as it provided the opportunity to use lots of different geographical locations within the Uk and thus utiliese the maps functionality.
 
-I took inspiration from [Fish4Jobs](https://www.fish4.co.uk/jobs//)to see which features they provided and to see if I could work out how to replicate them.
+I took inspiration from [Fish4Jobs](https://www.fish4.co.uk/jobs//) to see which features they provided and to see if I could work out how to replicate them.
 
 ### Structure
 
@@ -102,12 +102,9 @@ Apply Page
 ## Features
 
 ### Login Page
- <img src="Assets/Screen Shots/Logon Page.png" alt="Logon Page">
+ <img src="Assets/Screen Shots/JobFinder.png" alt="Home Page">
 
- On clicking the 'Sign in' button the Google logon popup is displayed giving the option to use an email to login or to use their Google account login.
-  <img src="Assets/Screen Shots/Logon Google.png" alt="Google Logon">
 
-  On a successful login, the user is directed to the [Recipe Page](#Recipe-Page)
 
 
 ### Navigation Bar
