@@ -3,8 +3,25 @@ const locationInputID = document.getElementById("locationInput");
 
 const autocompleteResults = document.getElementById("autocomplete-results");
 
-let apikey = "20ce059d185dff191cefd4172d94cff5";
-let appid = "17066b13";
+let apikey = ""
+let appid = ""
+
+async function getApiDetails() {
+  try {
+    const response = await fetch('/api/details');
+    const data = await response.json();
+
+    // Use the API details in your client-side code
+     apiKey = data.apiKey;
+     appId = data.appId;
+
+  } catch (error) {
+    console.error('Error fetching API details:', error);
+  }
+}
+
+// Call the function to get API details
+getApiDetails();
 
 let locationCountArray = [];
 let jobsTitlesArray = [];
@@ -213,6 +230,7 @@ async function searchForResultsHomePage() {
 }
 
 window.onload = async () => {
+  console.log("test");
 
   localStorage.setItem("sectorList",JSON.stringify(jobsTitlesArrayLocalStorage)
   );

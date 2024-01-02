@@ -15,6 +15,17 @@ app.use(express.static("public")); //listens for all files within the 'public' f
 app.use(express.json({ limit: "1mb" })); //need this for JSON to be allowed to be used
 app.use("/Assets", express.static("Assets"));
 
+const apiDetails = {
+  apiKey: process.env.API_KEY,
+  appId: process.env.APP_ID,
+};
+
+// API endpoint to get API details
+app.get('/api/details', (req, res) => {
+  res.json(apiDetails);
+  console.log(apiDetails);
+});
+
 // Define routes
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "Home.html"));
