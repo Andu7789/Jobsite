@@ -17,30 +17,11 @@ This site was created to contiune my self learning and to teach myself how to us
     * [Structure](#structure)
     * [Designs](Assets/Designs/)
 * [Features](#Features)
-    * [Login Page](#Login-Page)
-    * [Navigation Bar](#Navigation-Bar)
-    * [Recipe Page](#Recipe-Page)
-        * [Product View Page](#Product-view-Page)
-        * [Recipe Carousel](#Recipe-Carousel)
-    * [Shopping Page](#Shopping-Page)
-    * [Checkout Page](#Checkout-Page)
-        * [Address section](#Address-section)
-        * [Delivery Slot Chooser](#Delivery-Slot-Chooser)
-        * [Apply discount code](#Apply-discount-code)
-        * [Checkout Button](#Checkout-Button)
-    * [Shopping Cart](#Shopping-Cart)
-    * [Email](#Email)
-    * [Address Choice](#Address-Choice)
-    * [New Address Lookup](#New-Address-Lookup)
-    * [User Account Management](#User-Account-Management)       
-        * [Address Management](#Address-Management)
-        * [Previous Orders](#Previous-Orders)
-    * [Admin Portal](#Admin-Portal)
-        * [Stock Control](#Stock-Control)
-        * [Discount Codes](#Discount-Codes)
-        * [Memory Destruct](#Memory-Destruct)
-    * [Video Page](#Video-Page)
-    * [Chatbot - "Helping Handy"](#Chatbot)
+    * [Home Page](#Home-Page)
+        * [Navigation Bar](#Navigation-Bar)
+        * [Home Page Search Section](#Home-Page-Search-Section)
+        * [Home Page Brwose jobs by area section](#Home-Page-Brwose-jobs-by-area-section)
+
 * [Manual User Testing](#Manual-User-Testing) 
 * [Future Feature Enhancements](#Future-Feature-Enhancements)
 * [Known outstanding bugs](#Known-outstanding-bugs)
@@ -101,27 +82,30 @@ Apply Page
 
 ## Features
 
-### Login Page
- <img src="Assets/Screen Shots/JobFinder.png" alt="Home Page">
-
-
-
+### Home Page
+ <img src="Assets/Screenshots/JobFinder.png" alt="Home Page">
 
 ### Navigation Bar
-<img src="Assets/Screen Shots/Navigation Bar.png" alt="avigation Bar">
+<img src="Assets/Screenshots/Navbar.png" alt="Navigation Bar">
 
 * Buttons
-    * Links to Recipe, Shop and Video pages - The selected pages name is highlighted 
-    * Link to users Google account - user can use this to log out or manage their Google account
-    * Account button - on click this opens up the [User Account Management](#User-Account-Management) section
-    * Shopping cart icon - If there are items in the shopping cart, when clicked the user is taken to the Checkout Page.  If no items in the cart, clicking has no impact
+    * Links to Home page
+    * Link to Jobs page
 
-### Recipe Page
-  <img src="Assets/Screen Shots/Recipe Finder.png" alt="Recipe Finder">
 
-  * Search Input Bar with Search and reset buttons - 
-    * User can enter a main ingredient which in conjunction with the filters will return 20 recipes
-    * Utilises 'focus' on search bar so a user can press the 'enter' key once they have typed and this will carry out the same functionality as clicking the 'search' button
+### Home Page Search Section
+  <img src="Assets/Screenshots/Search Section - Home page.png" alt="Search Section - Home page">
+
+  * Search Input Bars with Search button - 
+    * User can enter a keyword and the page will provide a selection of possible job titles or the user can continue to enter their keyword
+    * User can start to type a location and the page will provide a selection of possible locations utilising Google APIs
+    * Once user has completed the search bars, they click on 'Search' button and this will take them to the Jobs page and any matching jobs will be dispalyed
+  * Links
+    * Full time jobs and Part time jobs - if selected the user will be taken to the jobs page and corresponding jobs will be dispalyed
+    * IT, Health care, Engineering, Teaching and Sales Jobs - if selected the user will be taken to the jobs page and corresponding jobs will be dispalyed
+
+### Home Page Brwose jobs by area section
+  <img src="Assets/Screenshots/Browse jobs by area - Home page.png" alt="Browse jobs by area - Home page">
   * Filters
     * Cuisine Type - Choose a country
     * Meal Type - Breakfast, lunch, dinner etc
