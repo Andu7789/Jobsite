@@ -134,9 +134,12 @@ Apply Page
   Here the user can see how many jobs match their search criteria along with more search options to:-
   * Search by keywords with autocomplete again
   * Search by location with autocomplete again
-  * Search by sectors 
+  * Search by sectors, one or many can be chosen
+
   <img src="Assets/ScreenShots/Sectors search.png" alt="Sectors search">
-  , one or many can be chosen
+
+  
+ 
 
 
   
