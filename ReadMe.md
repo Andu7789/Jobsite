@@ -20,7 +20,7 @@ This site was created to contiune my self learning and to teach myself how to us
     * [Home Page](#Home-Page)
         * [Navigation Bar](#Navigation-Bar)
         * [Home Page Search Section](#Home-Page-Search-Section)
-        * [Home Page Brwose jobs by area section](#Home-Page-Brwose-jobs-by-area-section)
+        * [Home Page Browse jobs by area section](#Home-Page-Brwose-jobs-by-area-section)
 
 * [Manual User Testing](#Manual-User-Testing) 
 * [Future Feature Enhancements](#Future-Feature-Enhancements)
@@ -92,7 +92,6 @@ Apply Page
     * Links to Home page
     * Link to Jobs page
 
-
 #### Home Page Search Section
   <img src="Assets/Screenshots/Search Section - Home page.png" alt="Search Section - Home page">
 
@@ -104,26 +103,25 @@ Apply Page
     * Full time jobs and Part time jobs - if selected the user will be taken to the jobs page and corresponding jobs will be dispalyed
     * IT, Health care, Engineering, Teaching and Sales Jobs - if selected the user will be taken to the jobs page and corresponding jobs will be dispalyed
 
-#### Home Page Brwose jobs by area section
+#### Home Page Browse jobs by area Section
   <img src="Assets/Screenshots/Browse jobs by area - Home page.png" alt="Browse jobs by area - Home page">
-  * Filters
-    * Cuisine Type - Choose a country
-    * Meal Type - Breakfast, lunch, dinner etc
-    * Dish Type - Starter, salad, soup etc
 
-  * Recipe cards
-    * Each card displays:-
-        * Recipe Image - clickable and takes the user to URL
-        * Recipe Title - clickable and takes the user to URL
-        * Meal Type
-        * Dish Type
-        * Cuisine Type
-        * Number the recipe serves
 
-  * Shopping Cart
-    * Displays currently selected items from the shopping page with:
-        * The option to delete an item
-        * Button to click through to the checkout
+  * Large buttons
+    * These are used to serach by a large city and when clicked will take the user to the jobs Page and display all jobs types for the selected city
+
+  * Links
+    * These are broken down to smaller areas and again when clicked will take the user to the jobs Page and display all jobs types for the selected city
+    * To get this information the program searches through the Database and looks for all jobs within a larger area such as Wales, then returns the top results by number of vacancies and provides the number for each next to the corresponding link
+
+#### Home Page Browse jobs by sector Section
+  <img src="Assets/Screenshots/Browse jobs by sector - Home page.png" alt="Browse jobs by area - Home page">
+
+   * Links
+    * These are broken down to type of jobs and again when clicked will take the user to the jobs Page and display all jobs types for the selected city
+    * To get this information the program searches through the Database and looks for all jobs within a sector,then returns the results by number of vacancies and provides the number for each next to the corresponding link
+
+
 
 ### Shopping Page
   <img src="Assets/Screen Shots/Shop.png" alt="Shop">
