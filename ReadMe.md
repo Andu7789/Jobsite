@@ -21,7 +21,9 @@ This site was created to contiune my self learning and to teach myself how to us
         * [Navigation Bar](#Navigation-Bar)
         * [Home Page Search Section](#Home-Page-Search-Section)
         * [Home Page Browse jobs by area section](#Home-Page-Brwose-jobs-by-area-section)
-
+        * [Home Page Browse jobs by sector section](#Home-Page-Brwose-jobs-by-sector-section)
+    * [Jobs Page](#Jobs-Page)
+        * [Jobs Page Browse jobs by sector Section](#Home-Page-Browse-jobs-by-sector-Section)
 * [Manual User Testing](#Manual-User-Testing) 
 * [Future Feature Enhancements](#Future-Feature-Enhancements)
 * [Known outstanding bugs](#Known-outstanding-bugs)
@@ -117,14 +119,24 @@ Apply Page
 #### Home Page Browse jobs by sector Section
   <img src="Assets/Screenshots/Browse jobs by sector- Home page.png" alt="Browse jobs by sector - Home page">
 
-   * Links
+  * Links
     * These are broken down to type of jobs and again when clicked will take the user to the jobs Page and display all jobs types for the selected city
     * To get this information the program searches through the Database and looks for all jobs within a sector,then returns the results by number of vacancies and provides the number for each next to the corresponding link
 
 
 
-### Shopping Page
-  <img src="Assets/Screen Shots/Shop.png" alt="Shop">
+### Jobs Page
+  <img src="Assets/ScreenShots/Jobs Page.png" alt="Jobs Page">
+
+#### Jobs Page Browse jobs by sector Section
+  <img src="Assets/Screenshots/Search section - Jobs Page.png" alt="Search Section - Jobs page">
+
+  Here the user can see how many jobs match their search criteria along with more search options to:-
+  * Search by keywords with autocomplete again
+  * Search by location with autocomplete again
+  * Search by sectors <img src="Assets/ScreenShots/Sectors search.png" alt="Sectors search">, one or many can be chosen
+
+
   
  * Search Input Bar with Search and reset buttons - 
     * User can use 'fuzzy search' to find items
