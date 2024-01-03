@@ -758,6 +758,7 @@ const jobSearchReset = () => {
   document.querySelectorAll(".form-check-input").forEach((checkbox) => {
     checkbox.checked = false;
   });
+
 };
 
 const goToJobsDetailsPage = (jobDetails) => {

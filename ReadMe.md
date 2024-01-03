@@ -24,6 +24,7 @@ This site was created to contiune my self learning and to teach myself how to us
         * [Home Page Browse jobs by sector section](#Home-Page-Brwose-jobs-by-sector-section)
     * [Jobs Page](#Jobs-Page)
         * [Jobs Page Browse jobs by sector Section](#Home-Page-Browse-jobs-by-sector-Section)
+        * [obs Page Job Card](#obs-Page-Job-Card)
 * [Manual User Testing](#Manual-User-Testing) 
 * [Future Feature Enhancements](#Future-Feature-Enhancements)
 * [Known outstanding bugs](#Known-outstanding-bugs)
@@ -136,11 +137,24 @@ Apply Page
   * Search by location with autocomplete again
   * Search by sectors, one or many can be chosen
 
-  <img src="Assets/Screenshots/Search section - Jobs Page.png" alt="Search section - Jobs Page">
+  <img src="Assets/Screenshots/Sectors search.png" alt="Sectors Search - Jobs Page">
 
+  * Seacrh by salary, one or many can be chosen
 
- 
+  <img src="Assets/Screenshots/Salary Search.png" alt="Salary Search - Jobs Page">
 
+  * Seacrh by Contract Type, one or many can be chosen
+
+  <img src="Assets/Screenshots/Contract Search.png" alt="Contract Search - Jobs Page">
+
+  * Seacrh by Hours, one or many can be chosen
+
+  <img src="Assets/Screenshots/Hours Search.png" alt="Hours Search - Jobs Page">
+
+  Then once they have selected their search criteria, on pressing the 'search' button, any jobs matching that criteria will be displayed.
+
+#### Jobs Page Job Card
+  <img src="Assets/Screenshots/Jobcard.png" alt="Job Card - Jobs Page">
 
   
  * Search Input Bar with Search and reset buttons - 
