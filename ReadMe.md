@@ -85,7 +85,7 @@ Apply Page
 ### Home Page
  <img src="Assets/Screenshots/JobFinder.png" alt="Home Page">
 
-### Navigation Bar
+#### Navigation Bar
 <img src="Assets/Screenshots/Navbar.png" alt="Navigation Bar">
 
 * Buttons
@@ -93,7 +93,7 @@ Apply Page
     * Link to Jobs page
 
 
-### Home Page Search Section
+#### Home Page Search Section
   <img src="Assets/Screenshots/Search Section - Home page.png" alt="Search Section - Home page">
 
   * Search Input Bars with Search button - 
@@ -104,7 +104,7 @@ Apply Page
     * Full time jobs and Part time jobs - if selected the user will be taken to the jobs page and corresponding jobs will be dispalyed
     * IT, Health care, Engineering, Teaching and Sales Jobs - if selected the user will be taken to the jobs page and corresponding jobs will be dispalyed
 
-### Home Page Brwose jobs by area section
+#### Home Page Brwose jobs by area section
   <img src="Assets/Screenshots/Browse jobs by area - Home page.png" alt="Browse jobs by area - Home page">
   * Filters
     * Cuisine Type - Choose a country
