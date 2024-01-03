@@ -126,7 +126,7 @@ Apply Page
 
 
 ### Jobs Page
-<img src="Assets/ScreenShots/Jobs Page.png" alt="Jobs Page">
+  <img src="Assets/Screenshots/Browse jobs by sector- Home page.png" alt="Browse jobs by sector - Home page">
 
 #### Jobs Page Browse jobs by sector Section
   <img src="Assets/Screenshots/Search section - Jobs Page.png" alt="Search Section - Jobs page">
