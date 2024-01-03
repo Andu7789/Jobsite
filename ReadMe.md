@@ -136,9 +136,9 @@ Apply Page
   * Search by location with autocomplete again
   * Search by sectors, one or many can be chosen
 
-  <img src="Assets/ScreenShots/Sectors search.png" alt="Sectors search">
+  <img src="Assets/Screenshots/Jobs Page.png" alt="Browse jobs by sector - Home page">
 
-  
+
  
 
 
