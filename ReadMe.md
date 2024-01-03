@@ -2,7 +2,7 @@
 
 ## Job Finder website
 
-This site was created to contiune my self learning and to teach myself how to use the Google Maps libraries
+This site was created to continue my self learning and to teach myself how to use the Google Maps libraries
 
   <img src="Assets/Screenshots/JobFinder.png" alt="Recipe Finder">
 
@@ -52,7 +52,7 @@ I took inspiration from [Fish4Jobs](https://www.fish4.co.uk/jobs//) to see which
 
 ### Structure
 
-For both the Home page and the Jobs Page I wanted to make sure they had the same 'look and feel' to ensure seemless continuity as the user moved through the site.  On both pages there are:-
+For both the Home page and the Jobs Page I wanted to make sure they had the same 'look and feel' to ensure seamless continuity as the user moved through the site.  On both pages there are:-
 
 * Navigation Bar
     * With links Home and Jobs pages
@@ -75,7 +75,7 @@ Jobs Page
 Jobs details Page
 
 * Breakdown of the selected job
-* Description of the seleced job
+* Description of the selected job
 * Map showing the location of the selected job
 
 Apply Page
@@ -101,17 +101,17 @@ Apply Page
   * Search Input Bars with Search button - 
     * User can enter a keyword and the page will provide a selection of possible job titles or the user can continue to enter their keyword
     * User can start to type a location and the page will provide a selection of possible locations utilising Google APIs
-    * Once user has completed the search bars, they click on 'Search' button and this will take them to the Jobs page and any matching jobs will be dispalyed
+    * Once user has completed the search bars, they click on 'Search' button and this will take them to the Jobs page and any matching jobs will be displayed
   * Links
-    * Full time jobs and Part time jobs - if selected the user will be taken to the jobs page and corresponding jobs will be dispalyed
-    * IT, Health care, Engineering, Teaching and Sales Jobs - if selected the user will be taken to the jobs page and corresponding jobs will be dispalyed
+    * Full time jobs and Part time jobs - if selected the user will be taken to the jobs page and corresponding jobs will be displayed
+    * IT, Health care, Engineering, Teaching and Sales Jobs - if selected the user will be taken to the jobs page and corresponding jobs will be displayed
 
 #### Home Page Browse jobs by area Section
   <img src="Assets/Screenshots/Browse jobs by area - Home page.png" alt="Browse jobs by area - Home page">
 
 
   * Large buttons
-    * These are used to serach by a large city and when clicked will take the user to the jobs Page and display all jobs types for the selected city
+    * These are used to search by a large city and when clicked will take the user to the jobs Page and display all job types for the selected city
 
   * Links
     * These are broken down to smaller areas and again when clicked will take the user to the jobs Page and display all jobs types for the selected city
@@ -139,15 +139,15 @@ Apply Page
 
   <img src="Assets/Screenshots/Sectors search.png" alt="Sectors Search - Jobs Page">
 
-  * Seacrh by salary, one or many can be chosen
+  * Search by salary, one or many can be chosen
 
   <img src="Assets/Screenshots/Salary Search.png" alt="Salary Search - Jobs Page">
 
-  * Seacrh by Contract Type, one or many can be chosen
+  * Search by Contract Type, one or many can be chosen
 
   <img src="Assets/Screenshots/Contract Search.png" alt="Contract Search - Jobs Page">
 
-  * Seacrh by Hours, one or many can be chosen
+  * Search by Hours, one or many can be chosen
 
   <img src="Assets/Screenshots/Hours Search.png" alt="Hours Search - Jobs Page">
 
@@ -156,21 +156,21 @@ Apply Page
 #### Jobs Page Job Card
   <img src="Assets/Screenshots/Jobcard.png" alt="Job Card - Jobs Page">
 
-  Dispalyed on the card are all the job details and button to view more details and one to apply for the role
+  displayed on the card are all the job details and buttons to view more details and to apply for the role
 
 ### Jobs Details Page
 <img src="Assets/Screenshots/Job Details Page.png" alt="Job Details Page">
 
-This page displays all the details about the individual job with buttins to go back to the job serach or to apply.  It also shows a map of the location of the job and uses Google Maps API to do this
+This page displays all the details about the individual job with buttons to go back to the job search or to apply.  It also shows a map of the location of the job and uses Google Maps API to do this
 
 ### Apply Page
 <img src="Assets/Screenshots/Apply Page.png" alt="Apply Page">
 
-This page captures all the applicants details and has error handling if a name or email are not enetered
+This page captures all the applicants details and has error handling if a name or email are not entered
 
-<img src="Assets/Screenshots/Error name.png" alt="Error name pply Page">
+<img src="Assets/Screenshots/Error name.png" alt="Error name Apply Page">
 
-<img src="Assets/Screenshots/error email.png" alt="Error email pply Page">
+<img src="Assets/Screenshots/error email.png" alt="Error email Apply Page">
 
 ## Future Feature Enhancements
 
