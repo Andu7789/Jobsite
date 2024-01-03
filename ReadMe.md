@@ -115,7 +115,7 @@ Apply Page
     * To get this information the program searches through the Database and looks for all jobs within a larger area such as Wales, then returns the top results by number of vacancies and provides the number for each next to the corresponding link
 
 #### Home Page Browse jobs by sector Section
-  <img src="Assets/Screenshots/Browse jobs by sector - Home page.png" alt="Browse jobs by area - Home page">
+  <img src="Assets/Screenshots/Browse jobs by sector- Home page.png" alt="Browse jobs by sector - Home page">
 
    * Links
     * These are broken down to type of jobs and again when clicked will take the user to the jobs Page and display all jobs types for the selected city
